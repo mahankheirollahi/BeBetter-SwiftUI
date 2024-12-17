@@ -13,7 +13,7 @@ class Thing: Identifiable{
     var id: String = UUID().uuidString
     var title: String = ""
     var lastUpdated: Date = Date()
-    var isHiddem: Bool = false
+    var isHidden: Bool = false
     
     init(title: String) {
         self.title = title
